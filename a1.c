@@ -10,6 +10,7 @@ void main()
 	  scanf("%d",&item[i][j]);
 	  sum=sum+item[i][j];
 	}
-	}
 	printf("sum=%d\n",sum);
+		print("sahana");
+	}
 
