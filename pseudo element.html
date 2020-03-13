@@ -1,0 +1,86 @@
+<html>
+<head>
+</head>
+<style>
+p::first-line{
+color:#ff0000;
+font-variant:small-caps;
+}
+
+p::first-letter{
+color:blue;
+font-size:xx-large;
+}
+
+h1::before{
+content:url(12.gif);
+ }
+
+h2::after{
+content:url(12.gif);
+ }
+
+img{
+opacity:0.5;
+}
+
+img:hover{opacity:1.0;}
+
+div{
+background:rgb(76,175,80);
+padding:10px;
+}
+
+div.first{background:rgba(76,175,80,0.1);}
+ div.second{background:rgb(76,175,80,0.3);}
+div.third{background:rgb(76,175,80,0.6);}
+
+
+
+div.background {
+  background: url(color.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 70px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+padding:20px;
+}
+
+div.transbox p {
+  margin: 10%;
+  font-weight: bold;
+  color: #000000;
+}
+
+</style>
+<body>
+<center>
+<hr><h3>firstline/letter and before after properties</h3></hr>
+<p>PRESIDENCY UNIVERSITY</p>
+
+<h1>THIS IS THE HEADING^_^</h1>
+
+<h2>THIS IS THE HEADING^_^</h2>
+
+<hr>
+<p2>opacity in css</p2>
+<img src="im.jpg" alt="forest" width="400" height="400">
+</hr>
+<hr>
+<strong>transparent box</strong>
+<div class="first"><p1>An RGBA color value is specified with:</p1></div>
+<div class="second"><p1> rgba(red, green, blue, alpha).</p1></div>
+<div class="third"><p1> The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).</p1></div>
+</hr>
+<hr><strong>text in transparent box</strong>
+<div class="background">
+<div class="transbox">
+<p3>this is some text that is placed in the transparent box</p3>
+
+</body>
+</center>
+</html>
